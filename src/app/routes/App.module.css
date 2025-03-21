@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding-top: 26px;
+}
+
+.logo {
+  border: 1px solid black;
+  width: 156px;
+  height: 56px;
+  margin-top: 26px;
+}
+
+.form {
+  border: 1px solid black;
+  width: 600px;
+  margin-top: 26px;
+}
+
+.footer {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px 16px 26px;
+}
+
+.vehicleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.periodContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.datePickers {
+  display: flex;
+}
+
+.formSection {
+  padding: 40px 24px 40px 26px;
+}
